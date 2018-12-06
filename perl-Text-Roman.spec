@@ -4,7 +4,7 @@
 #
 Name     : perl-Text-Roman
 Version  : 3.5
-Release  : 4
+Release  : 5
 URL      : https://cpan.metacpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libtext-roman-perl/libtext-roman-perl_3.5-2.debian.tar.xz
