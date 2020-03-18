@@ -4,7 +4,7 @@
 #
 Name     : perl-Text-Roman
 Version  : 3.5
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libtext-roman-perl/libtext-roman-perl_3.5-2.debian.tar.xz
@@ -80,7 +80,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Text-Roman
 cp %{_builddir}/Text-Roman-3.5/LICENSE %{buildroot}/usr/share/package-licenses/perl-Text-Roman/740710d72b8fe7d7735f0b125d9d65910661418f
-cp %{_builddir}/Text-Roman-3.5/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Text-Roman/cf72d41e68ef0666d41e292285f7de6c512bc6a7
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Text-Roman/cf72d41e68ef0666d41e292285f7de6c512bc6a7
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -105,4 +105,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Text/Roman.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Text/Roman.pm
