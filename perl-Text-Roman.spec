@@ -4,7 +4,7 @@
 #
 Name     : perl-Text-Roman
 Version  : 3.5
-Release  : 19
+Release  : 20
 URL      : https://cpan.metacpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libtext-roman-perl/libtext-roman-perl_3.5-2.debian.tar.xz
@@ -105,4 +105,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Text/Roman.pm
+/usr/lib/perl5/*
